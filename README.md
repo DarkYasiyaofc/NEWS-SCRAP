@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://cdn.pixabay.com/photo/2017/06/26/19/03/news-2444778_1280.jpg" alt="Esana"></a>
 </p>
 
-<h2 align="center">News Scrapers</h2>
+<h2 align="center">The Unofficial News Scrapers</h2>
 
 
 ---
@@ -22,10 +22,12 @@
 - [Sirasa](#sirasa)
 - [Hirunews.lk](#hiru)
 - [AdaDerana](#derana)
+- [Siyathanews.lk](#siyatha)
+- [Itnnews.lk](#itn)
 
 ## 🧐 About <a name = "about"></a>
 
-The unofficial Scrapers [ Ada.lk, Bbc.com, Dailymirror.lk, Gagana.lk, Lankadeepa.lk. Newswire.lk, Sirasa, Hirunews.lk ]
+The unofficial Scrapers [ Ada.lk, Bbc.com, Dailymirror.lk, Gagana.lk, Lankadeepa.lk. Newswire.lk, Sirasa, Hirunews.lk, Adaderana.lk, Siyathanews.lk, Itnnews.lk ]
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -54,7 +56,7 @@ const news = new DYXT_NEWS();
 ## 01. Ada.lk <a name = "ada"></a>
 
 ```ts
-const result = news.ada();
+const result = await news.ada();
 console.log(result);
 ```
 ```ts
@@ -80,7 +82,7 @@ console.log(result);
 ## 02. Bbc.com <a name = "bbc"></a>
 
 ```ts
-const result = news.bbc();
+const result = await news.bbc();
 console.log(result);
 ```
 ```ts
@@ -111,7 +113,7 @@ read more...
 ## 03. Dailymirror.lk <a name = "dailymirror"></a>
 
 ```ts
-const result = news.dailymirror();
+const result = await news.dailymirror();
 console.log(result);
 ```
 ```ts
@@ -138,7 +140,7 @@ console.log(result);
 ## 04. Gagana.lk <a name = "gagana"></a>
 
 ```ts
-const result = news.gagana();
+const result = await news.gagana();
 console.log(result);
 ```
 ```ts
@@ -184,7 +186,7 @@ console.log(result);
 ## 05. Lankadeepa.lk <a name = "lankadeepa"></a>
 
 ```ts
-const result = news.lankadeepa();
+const result = await news.lankadeepa();
 console.log(result);
 ```
 ```ts
@@ -208,7 +210,7 @@ console.log(result);
 ## 06. Newswire.lk <a name = "newswire"></a>
 
 ```ts
-const result = news.newswire();
+const result = await news.newswire();
 console.log(result);
 ```
 ```ts
@@ -229,7 +231,7 @@ Boards,” Shah said in a statement.Shah’s journey in cricket management began
 ## 07. Sirasa <a name = "sirasa"></a>
 
 ```ts
-const result = news.sirasa();
+const result = await news.sirasa();
 console.log(result);
 ```
 ```ts
@@ -253,7 +255,7 @@ console.log(result);
 ## 08. Hirunews.lk <a name = "hiru"></a>
 
 ```ts
-const result = news.hiru();
+const result = await news.hiru();
 console.log(result);
 ```
 ```ts
@@ -303,7 +305,7 @@ console.log(result);
 ## 09. Adaderana.lk <a name = "derana"></a>
 
 ```ts
-const result = news.derana();
+const result = await news.derana();
 console.log(result);
 ```
 ```ts
@@ -329,6 +331,51 @@ console.log(result);
 }
 ```
 
+## 10. Siyathanews.lk <a name = "siyatha"></a>
+
+```ts
+const result = await news.siyatha();
+console.log(result);
+```
+```ts
+{
+  status: true,
+  creator: '@DarkYasiya',
+  result: {
+    title: 'ලංකාවේ පළමු තරු හතේ හෝටලය (VIDEO)',
+    image: 'https://siyathanews.lk/wp-content/uploads/2024/02/siyatha-news-logo-1-400x242-1-e1708949411400.png',
+    date: 'December 8, 2024',
+    url: 'https://siyathanews.lk/archives/156264',
+    desc: 'තෙල්දෙණියේ ඉදිවන අවියාන හෝටලය ලබන වසරේදී විවෘත කිරීමට සැලසුම් කර තිබෙනවා.එය ශ්‍රී ලංකාවේ ප්‍රථම තරු 7 හෝටලයයි.මේ පිළිබඳව
+ සහ තවත් තොරතුරු පහතින් නැරඹිය හැකියි.'
+  }
+}
+```
+
+## 11. Itnnews.lk <a name = "itn"></a>
+
+```ts
+const result = await news.itn();
+console.log(result);
+```
+```ts
+{
+  status: true,
+  creator: '@DarkYasiya',
+  result: {
+    title: 'අනවසර ධීවර කටයුතු සිදුකළ ඉන්දීය ධීවරයින් 8ක් අත්අඩංගුවට',
+    image: 'https://www.itnnews.lk/wp-content/uploads/2024/12/i12222222222222222-860x615.jpg',
+    date: 'දෙසැම්බර් 8, 2024',
+    url: 'https://www.itnnews.lk/2024/12/08/646440/',
+    desc: 'ශ්‍රී ලංකා නාවික හමුදාව, වෙරළ ආරක්‍ෂක දෙපාර්තමේන්තුව හා එක්ව, අද (08)දින යාපනය, ඩෙල්ෆ්ට් දූපතට ඔබ්බෙන් වූ මෙරට මුහුදු සී
+මාව තුළ අනවසර ධීවර කටයුතු සිදු ක ඉන්දීය ධීවරයින් (08)ක් අත්අඩංගුවට ගෙන තිබෙනවා.එහිදී, යාපනය මුහුදු ප්‍රදේශයේ අනවසර ධීවර කටයුතු සිදු
+ කරමින් සිටි ඉන්දීය ධීවර යාත්‍රා දෙකක් (02)ක් ද භාරයට ගත් බවයි නාවික හමුදාව පවසන්නේ.මෙම මෙහෙයුම මඟින් අත්අඩංගුවට ගත් ඉන්දීය ධීවර යා
+ත්‍රා දෙක (02) සහ එහි සිටි ඉන්දීය ධීවරයින් අට දෙනා (08) කන්කසන්තුරය වරාය වෙත රැගෙන ආ අතර, ඉදිරි නීතිමය කටයුතු සඳහා මයිලඩි ධීවර පරීක
+්‍ෂක කාර්යාලය වෙත භාර දීමට නියමිතයි.එමෙන්ම 2024 වර්ෂයේ මේ දක්වා සිදුකළ මෙහෙයුම් මඟින් මෙරට මුහුදු සීමාව තුළ අනවසර ධීවර කටයුතු සිදුක
+ළ ඉන්දීය ධීවර යාත්‍රා (70)ක් සහ ඉන්දීය ධීවරයින් (537)ක් අත්අඩංගුවට ගත් බවයි නාවික හමුදාව සඳහන් කළේ.'
+  }
+}
+```
 
 ## 🖋 Author <a name = "author"></a>
 
